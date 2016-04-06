@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>iFrame test</title>
+   
+</head>
+
+<body>
+  <script>
+window.onbeforeunload =function (e) { return 'unload'; };
+  </script>
+<h1>root</h1>
+<iframe nwdisable nwfaketop src="child.html" style="position:absolute; top:100px; left:10px; width:400px; height:300px;"></iframe>
+</body>
+</html>

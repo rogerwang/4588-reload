@@ -1,0 +1,27 @@
+{
+  "name": "iFrame",
+  "description": "iFrame test case",
+  "version": "0.1",
+  "main": "index.html",
+  "node-remote": "<all_urls>",
+  "chromium-args": "",
+  "window": {
+    "title": "iFrame test",
+    "width": 1024,
+    "height": 768,
+    "frame": true,
+    "show": true,
+    "kiosk": false,
+    "fullscreen": false,
+    "resizable": false 
+  }
+  ,
+  "scripts": {
+    "start": "nw ."
+  },
+
+   "webkit": {  
+	   "plugin": true,
+     "java": false
+  } 
+}
